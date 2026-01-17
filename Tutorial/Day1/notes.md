@@ -148,7 +148,7 @@ arr.dtype  # dtype('int16')
 ## 19) What is astype and how it is used; use cases
 - **Note:** NumPy does not have `stype`; it’s `astype()`.
 - **`astype(dtype)`:** Converts and returns a new array with the target dtype.
-- **Use cases:** Cast floats→ints, bytes↔strings, booleans↔ints, downcast to save memory.
+- **Use cases:** Cast floats->ints, bytes↔strings, booleans↔ints, downcast to save memory.
 ```python
 arr = np.array([0.9, 1.9, 2.1])
 arr.astype(np.int32)  # array([0, 1, 2])
@@ -168,7 +168,7 @@ arr.astype(np.int32)  # array([0, 1, 2])
 | Example | `arr.dtype` -> `dtype('float64')` | `arr.astype(np.float32)` -> new array with `float32` |
 | Use cases | Inspect type, plan memory/precision | Cast for IO/ML models, precision control, compatibility |
 
-## 22) What is np.round — Basic understanding
+## 22) What is np.round: Basic understanding
 - **Alias:** `np.around`.
 - **Behavior:** Rounds to nearest value with optional decimals; uses *banker’s rounding* (ties to even).
 ```python
@@ -176,7 +176,7 @@ np.round([1.25, 1.35], 1)  # array([1.2, 1.4])
 np.round(1234, -2)         # 1200
 ```
 
-## 23) What is transpose - Basic understanding
+## 23) What is transpose: Basic understanding
 - **Purpose:** Reorders axes; for 2D, swaps rows and columns; for ND, permutes axes.
 ```python
 M = np.array([[1, 2], [3, 4]])
