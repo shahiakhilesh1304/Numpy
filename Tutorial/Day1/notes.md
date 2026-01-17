@@ -165,7 +165,7 @@ arr.astype(np.int32)  # array([0, 1, 2])
 |---|---|---|
 | What it is | Attribute describing current element type | Method to convert to a different dtype |
 | Mutates data? | No, read-only descriptor | Returns a new array (does not change in-place) |
-| Example | `arr.dtype` → `dtype('float64')` | `arr.astype(np.float32)` -> new array with `float32` |
+| Example | `arr.dtype` -> `dtype('float64')` | `arr.astype(np.float32)` -> new array with `float32` |
 | Use cases | Inspect type, plan memory/precision | Cast for IO/ML models, precision control, compatibility |
 
 ## 22) What is np.round — Basic understanding
