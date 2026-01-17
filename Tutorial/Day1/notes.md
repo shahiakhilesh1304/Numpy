@@ -48,7 +48,7 @@ np.arange(0, 10, 2)                    # sequence with step
 np.linspace(0, 1, 5)                   # 5 points between 0 and 1
 ```
 
-## 8) %timeit — What is the use of this
+## 8) %timeit - What is the use of this
 - **Purpose:** Jupyter/IPython magic that measures average execution time of a statement.
 ```python
 # In a notebook cell
@@ -176,7 +176,7 @@ np.round([1.25, 1.35], 1)  # array([1.2, 1.4])
 np.round(1234, -2)         # 1200
 ```
 
-## 23) What is transpose — Basic understanding
+## 23) What is transpose - Basic understanding
 - **Purpose:** Reorders axes; for 2D, swaps rows and columns; for ND, permutes axes.
 ```python
 M = np.array([[1, 2], [3, 4]])
